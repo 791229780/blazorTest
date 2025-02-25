@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BootstrapBlazor" Version="9.3.0" />
+    <PackageReference Include="BootstrapBlazor.DataAccess.PetaPoco" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.2" />
+    <PackageReference Include="PetaPoco.Extensions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BootstrapAdmin.Caching\BootstrapAdmin.Caching.csproj" />
+    <ProjectReference Include="..\BootstrapAdmin.Web.Core\BootstrapAdmin.Web.Core.csproj" />
+  </ItemGroup>
+
+</Project>
